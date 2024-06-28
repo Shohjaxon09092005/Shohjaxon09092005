@@ -1,0 +1,157 @@
+.hero h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--base-white);
+    margin-top: 80px;
+
+
+}
+
+.hero__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.hero span {
+    position: relative;
+}
+
+.span__img {
+    position: absolute;
+    right: -22px;
+    bottom: -22px;
+}
+
+.hero__content {
+    width: 68%;
+    margin: 0 auto
+}
+
+.hero__btn button:nth-of-type(1) {
+    border-radius: 7px;
+    padding: 12px 39px;
+    background: var(--background-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border: none;
+}
+
+.hero__btn button:nth-of-type(2) {
+    border-radius: 7px;
+    padding: 12px 20px;
+    background: var(--accent-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+
+.hero__card h4 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--base-white);
+}
+
+.hero__card p {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--text-icon-secondary);
+
+}
+
+.hero {
+    margin-bottom: 120px;
+}
+
+
+
+.img {
+   width: 20px;
+   height: 20px;
+    margin: 0 auto;
+    margin-top: 78px;
+}
+
+@media(max-width:700px) {
+    .hero h1 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+    }
+
+    .span__img {
+        width: 115px;
+        height: 24px;
+        left: 0;
+    }
+
+}
+
+@media(max-width:600px) {
+    .hero__btn {
+        display: block;
+
+    }
+
+    .hero__btn button {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .hero__btn button:nth-of-type(2) {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero__wrapper {
+        display: block;
+
+
+    }
+
+    .hero__card {
+        margin-bottom: 32px;
+    }
+
+    .hero__content {
+        width: 85%;
+
+    }
+}

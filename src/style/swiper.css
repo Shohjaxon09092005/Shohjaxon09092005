@@ -1,0 +1,118 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swi .divCard {
+  margin-bottom: 0;
+}
+
+.swi .swiper__content img {
+  position: absolute;
+  left: 30px;
+  top: 300px;
+}
+
+.swi .swiperDiv {
+  margin-top: 80px;
+}
+
+.swi .swiperCard {
+  margin-top: 80px;
+}
+
+.ona {
+  display: none;
+}
+
+.bola {
+  display: none;
+}
+
+@media(max-width:1210px) {
+  .ota {
+    display: none;
+  }
+
+  .ona {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width:900px) {
+  .ona {
+    display: none;
+  }
+
+  .bola {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
+
+@media(max-width:400px) {
+  .bola .swiperDiv span {
+    font-size: 14px;
+  }
+
+  .bola .swiperDiv h3 {
+    font-size: 20px;
+  }
+
+  .bola .swiperDiv h6 {
+    font-size: 14px;
+  }
+
+  .bola .swiperDiv p {
+    font-weight: 450;
+    font-size: 14px;
+
+  }
+
+  .bola .divCard {
+    height: 130px;
+  }
+  .bola .swiperCard span {
+    font-size: 14px;
+  }
+
+  .bola .swiperCard h3 {
+    font-size: 20px;
+  }
+
+  .bola .swiperCard h6 {
+    font-size: 14px;
+  }
+
+  .bola .swiperCard p {
+    font-weight: 450;
+    font-size: 14px;
+
+  }
+
+  .bola .divCard {
+    height: 130px;
+  }
+  .bola{
+    width: 90%;
+  }
+  .swi .swiper__content img {
+  position: absolute;
+  left: 30px;
+  top: 350px;
+}
+}
+

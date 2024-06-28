@@ -1,0 +1,38 @@
+:root {
+	--base-white: #fff;
+	--base-black: #1c1c28;
+	--accent-brand: #6966ff;
+	--accent-brand-hover: #6c83ff;
+	--accent-red: #e45555;
+	--accent-green: #16b57f;
+	--background-primary: #1c1c28;
+	--background-secondary: #393953;
+	--background-secondary-hover: #4f4c64;
+	--text-icon-primary: #fff;
+	--text-icon-secondary: #c8c7d8;
+	--text-icon-tertiary: #a59eba;
+	--border-subtle: #393953;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+  
+}
+.container{
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+}
+li{ 
+	font-family: "Space Mono", monospace;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #1C1C28;
+    color: white;
+}

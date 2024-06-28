@@ -1,0 +1,139 @@
+.gridCard {
+    padding: 24px;
+    width: 72%;
+    height: 168px;
+    background: var(--background-secondary);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+
+}
+
+.gridCard__content {
+    width: 88%;
+}
+
+.gridCard__content h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+}
+
+.gridCard__content p {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.gridCard__content span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-secondary);
+}
+
+.gridCard button {
+    border: 1px solid var(--background-secondary);
+    border-radius: 100px;
+    padding: 4px 16px;
+    background: var(--base-black);
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+}
+
+.grid__content .gridCard:nth-of-type(3) button {
+    background: var(--accent-brand);
+}
+
+.grid__content .gridCard:nth-of-type(9) button {
+    background: var(--accent-brand);
+}
+
+.grid__content .gridCard:nth-of-type(4) button {
+    background: var(--accent-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+@media(max-width:900px) {
+    .gridCard {
+        width: 80%;
+    }
+}
+
+@media(max-width:900px) {
+    .gridCard {
+        display: block;
+        height: 248px;
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .gridCard button {
+        margin-top: 16px;
+    }
+
+}
+
+@media(max-width:600px) {
+    .gridCard__content h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 160%;
+        letter-spacing: -0.02em;
+        color: var(--base-white);
+    }
+
+    .grid__content p {
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+    }
+
+    .grid__content span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: var(--text-icon-secondary);
+    }
+
+    .gridCard button {
+        border-radius: 100px;
+        padding: 4px 16px;
+        font-family: var(--font-family);
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+
+    }
+    .grid__content{
+        width:100%;
+        
+    }
+    .gridCard{
+        
+        height: 320px;
+        margin-bottom: 24px;
+        }
+        .grid__content{
+            margin-bottom: 160px;
+        }
+}

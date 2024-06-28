@@ -1,0 +1,139 @@
+.header__wrapper {
+    padding: 24px 32px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.header__list li {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-secondary);
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.header__list button {
+    border-radius: 7px;
+    padding: 12px 16px;
+    background: var(--accent-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border: none;
+}
+
+.modal button {
+
+    border-radius: 7px;
+    padding: 12px 16px;
+    background: var(--accent-brand);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border: none;
+    margin-left: 50px;
+
+}
+
+.close {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+}
+
+.menu__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    display: none;
+}
+
+.menu_btn {
+    border-radius: 7px;
+    padding: 10px 14px;
+    background: var(--accent-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border: none;
+}
+
+.modal {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.818);
+    z-index: 11;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.modal_content ul li {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--text-icon-secondary);
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 20;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+@media(max-width:1100px) {
+    .header__list {
+        gap: 16px;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .header__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+}
+
+@media(max-width:760px) {
+    .header__list {
+        display: none;
+    }
+
+    .menu__wrapper {
+        display: flex;
+    }
+
+}
